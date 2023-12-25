@@ -1,0 +1,74 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #04423dd7;
+}
+
+h1,
+h3 {
+  color: #04423dd7;
+  text-align: center;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.form {
+  margin: 25px;
+  padding: 20px;
+  border: 2px solid #6dc1b0;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #6dc1b0;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #6dc1b0;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#posts {
+  margin-top: 20px;
+}
+
+.card {
+  text-align: left;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card-header {
+  background-color: #6dc1b0;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-top: 1px solid #6dc1b0;
+  border-radius: 0 0 8px 8px;
+}
