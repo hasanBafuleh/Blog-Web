@@ -16,7 +16,7 @@ async function add() {
   document.querySelector("#content").value = "";
   show();
 }
-
+// the show 
 async function show() {
   let response = await fetch("http://localhost:3000/posts");
   let posts = await response.json();
